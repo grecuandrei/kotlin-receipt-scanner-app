@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Expense (Merchant) -->
+    <EditText
+        android:id="@+id/inputMerchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expense (Merchant)" />
+
+    <!-- Amount -->
+    <EditText
+        android:id="@+id/inputAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount (USD)" />
+
+    <!-- Date -->
+    <EditText
+        android:id="@+id/inputDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date" />
+
+    <!-- Status (Completed by default) -->
+    <Spinner
+        android:id="@+id/inputStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+<!--    <EditText-->
+<!--        android:id="@+id/inputStatus"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Status"-->
+<!--        android:text="Completed"-->
+<!--        android:enabled="false" />-->
+
+    <!-- Category -->
+    <Spinner
+        android:id="@+id/inputCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <!-- Payment Method -->
+    <Spinner
+        android:id="@+id/inputPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <!-- Type (Essential/Non-Essential) -->
+    <Spinner
+        android:id="@+id/inputType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+</LinearLayout>

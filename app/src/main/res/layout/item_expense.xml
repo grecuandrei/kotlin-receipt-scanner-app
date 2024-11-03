@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/monthTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_secondary"
+        android:text="Month" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/material_dynamic_neutral60"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/budget"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:text="Total" />
+
+        <TextView
+            android:id="@+id/monthTotalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 Lei"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/material_dynamic_neutral60"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/expense"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:text="Expense" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="textEnd"
+            android:text="Amount" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/expensesContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+    </LinearLayout>
+</LinearLayout>
