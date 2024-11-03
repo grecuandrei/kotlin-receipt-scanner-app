@@ -88,3 +88,5 @@ config.properties
 - **Retrofit**: For API communication.
 - **Kotlin Coroutines**: For asynchronous operations.
 
+## License
+This project is open-source and available under the [MIT License](https://github.com/grecuandrei/kotlin-receipt-scanner-app/blob/master/LICENSE).
